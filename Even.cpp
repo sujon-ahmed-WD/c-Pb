@@ -22,30 +22,16 @@ int main()
             }
         }
 
-            //    cout<<even<<endl       ;
+        int dif = abs((n / 2) - even);
 
-
-        int dif=abs((n/2)-even);
-
-        if(n%2 !=0)
+        if (n % 2 != 0)
         {
-            cout<<-1<<endl;
+            cout << -1 << endl;
         }
         else
         {
-            cout<<dif<<endl;
+            cout << dif << endl;
         }
-
-        // int dif = abs((n / 2) - even);
-
-        // if (n % 2 != 0)
-        // {
-        //     cout << -1 << endl;
-        // }
-        // else
-        // {
-        //     cout << dif << endl;
-        // }
     }
 
     return 0;
